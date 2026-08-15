@@ -1,0 +1,9 @@
+.orb-container img{
+    aspect-ratio: 1/1;
+    border: 6px solid var(--color-text);
+    border-radius: 50%;
+}
+
+.coffe-orb {
+    width: 400px;
+}

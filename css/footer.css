@@ -1,3 +1,16 @@
 footer {
-  margin-top: 600px;
+    margin-top: 600px;
+}
+
+/* color */
+
+footer {
+    background-color: var(--color-secondary);
+}
+
+
+/* human */
+#made-by-human-stamp {
+    margin: 20px;
+    width: 300px;
 }
