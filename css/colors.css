@@ -1,0 +1,11 @@
+:root {
+  --color-background: #e1e4e0;
+  --color-primary: #6a7963;
+  --color-secondary: #c3c9c1;
+
+  /* text */
+  --color-text: #6a7963;
+  --color-text-on-primary: #e1e4e0;
+  /* text a */
+  --color-a-hover: #2a3028;
+}

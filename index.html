@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+
+    <header class="">
+
+        <img class="header-logo" src="assets\logo\svg\Cafe-Dola-Primary-Logo-Olive.svg" alt="">
+
+
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link" data-i18n="header-home">Hjem</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" data-i18n="header-about">Om oss</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" data-i18n="header-menu">Meny</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" data-i18n="header-contact">Kontakt</a></li>
+        </ul>
+    </header>
+
+
+    <!-- Settings -->
+    <div class="settings-container">
+
+        <div onclick="loadLanguage('no')">
+            <input type="radio" id="no" name="radioLanguage" checked>
+            <label for="no">Norsk</label><br>
+        </div>
+
+        <div onclick="loadLanguage('en')">
+            <input type="radio" id="en" name="radioLanguage">
+            <label for="en">English</label><br>
+        </div>
+
+        <div onclick="loadLanguage('it')">
+            <input type="radio" id="it" name="radioLanguage">
+            <label for="en">Italiana</label><br>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <!-- https://www.human-made.work/ -->
+        <img src="assets/human-made/human-made.work/white/human-made.svg" alt="this project is 100 made by humans">
+    </footer>
+
+    <!-- scipts -->
+    <script src="js/language.js"></script>
+</body>
+
+</html>
