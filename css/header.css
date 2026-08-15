@@ -5,23 +5,35 @@ body {
 }
 
 /* Header posision */
+
+
+/* remove deafault ul margin and padding */
+header ul {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+/* header sticky */
+header {
+    position: sticky;
+    top: 0;
+}
+
 /* li in line */
 header li {
-  display: inline;
+    display: inline;
 }
 
 /* Header color */
 header {
-  background-color: var(--color-secondary);
+    background-color: var(--color-secondary);
 }
 
-
-
 /* Header link colors and decor*/
-header li a{
-  background-image: linear-gradient(to bottom, rgb(165, 209, 177), rgb(73, 220, 103));
-  padding: 6px;
-  border-radius: 30px;
+header li a {
+    background-color: var(--color-background);
+    padding: 6px;
+    border-radius: 30px;
 }
 
 header a {
@@ -47,6 +59,7 @@ a:active {
 
 /* Header logo */
 .header-logo {
+  margin: 10px;
     width: 100px;
     height: auto;
 }
